@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+</head>
+<style>
+body{
+    color:black;
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:Georgia, 'Times New Roman', Times, serif, cursive;
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid grey;
+    padding: 4px 25px;
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+}
+.heading{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 100px;
+}
+.heading h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: serif;
+    font-weight: bold;
+    font-style: italic;
+}
+.A{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid white;
+    width: 80%;
+    height: 100px;
+}
+.form-group{
+    display: flex;
+}
+.form-group input{
+    font-size: 15px;
+    text-align: center;
+    color: royalblue;
+    background-color: rgb(241, 239, 234);
+    font-weight: bolder;
+    display: flex;
+    border: 1px solid black;
+    padding: 7px;
+    margin:11px auto;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+<body>
+    <div class="heading">
+        <h1>Enter Credentials</h1>
+    </div> 
+    <div class="A"> 
+    <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your email address">
+                </div>
+                <div class="form-group">
+                    <input type="password" name="" placeholder="Enter password">
+                </div>
+            <button class="btn">Submit</button>
+    </form>
+</body>
+</html>
